@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { Container } from "../../globalStyles";
-import { FaMagento } from "react-icons/fa";
+import { GrYoga } from "react-icons/gr";
 
 export const Nav = styled.nav`
-	background: #101522;
+	background: #8d592f;
 	height: 80px;
 	display: flex;
 	justify-content: center;
@@ -33,7 +33,7 @@ export const NavLogo = styled(Link)`
 	align-items: center;
 `;
 
-export const NavIcon = styled(FaMagento)`
+export const NavIcon = styled(GrYoga)`
 	margin-right: 0.5rem;
 `;
 
@@ -68,7 +68,8 @@ export const NavMenu = styled.ul`
         left: ${({click}) => (click ? 0 : "-100%")};
         opacity: 1;
         transition: all 0.5s ease;
-        background: #101522;
+        background: #8d592f;
+        border-top: 2px solid black;
     }
 `
 
@@ -103,7 +104,7 @@ export const NavLinks = styled(Link)`
         display: table;
 
         &:hover {
-            color: #4b59f7;
+            color: #261e14;
             transition: all 0.3s ease;
         }
     }

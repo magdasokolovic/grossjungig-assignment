@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
    margin: 0;
    padding: 0;
    font-family: 'Source Sand Pro', sans-serif;
+   : 
 }
 `;
 
@@ -24,7 +25,7 @@ export const Container = styled.div`
 
 export const Button = styled.button`
 border-radius: 4px;
-background: ${({primary}) => (primary ? "#4B59F7" : "#0467FB")};
+background: #c5ab9d;
 white-space: nowrap;
 padding: ${({big}) => (big ? "12px 64px" : "10px 20px")};
 color: #fff;
@@ -33,13 +34,13 @@ outline: none;
 border: none;
 cursor: pointer;
 
+
 &:hover {
     transition: all 0.3s ease-out;
-    background: #fff;
-    background: ${({primary}) => (primary ? "#0467FB" : "#4B59F7")};
+    background: #261e14;
     
     @media screen and (max-width: 960px) {
-        width: 100%;
+        width: 90%;
         
     }
 }
