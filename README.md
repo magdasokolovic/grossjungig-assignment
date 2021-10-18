@@ -9,3 +9,5 @@ Evaluation criteria:-
 1. Responsiveness of the site
 2. Coding best practices
 
+You don't have to fetch it from anywhere. Just use any static asset. Hope that clarifies your concerns.
+
