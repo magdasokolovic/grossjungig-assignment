@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Button } from "../../globalStyles";
+import { Container } from "../../globalStyles";
 import {
 	InfoSec,
 	InfoColumn,
@@ -10,7 +10,7 @@ import {
 	Subtitle,
     BannerButton
 } from "./Banner.elements";
-//, ImgWrapper, Img
+
 const Banner = () => {
 	return (
 		<>
